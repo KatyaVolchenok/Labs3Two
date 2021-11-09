@@ -26,11 +26,11 @@ public class Main {
        
 
         System.out.println(l.printFromStart());
-        System.out.println("_____________________________________________");
+        System.out.println("____________________________________________");
 
         
         System.out.println(l.printFromEnd());
-        System.out.println("______________________________________________");
+        System.out.println("____________________________________________");
 
         int [] file3 = {1, 1, 2, 3, 5, 8, 13, 21};
            
