@@ -16,23 +16,23 @@ public class Main {
        
         DobleLinkedList l = new DobleLinkedList();
 
-        int [] file1 = {1, 2, 3, 4};
-        int [] file2 = {5, 6, 7, 8};
+        int [] file1 = {1, 2, 3, 4, 5, 10, 15};
+        int [] file2 = {20, 30, 40, 50};
         
-        System.out.println("Двухсвязный список: ");
+        System.out.println("Двухсвязный список ");
           
         l.addArrayFirst(file1);
         l.addArrayFirst(file2);
        
 
         System.out.println(l.printFromStart());
-        System.out.println("__________________");
+        System.out.println("____________________________________________");
 
         
         System.out.println(l.printFromEnd());
-        System.out.println("__________________");
+        System.out.println("____________________________________________");
 
-        int [] file3 = {1, 2, 4, 8};
+        int [] file3 = {1, 1, 2, 3, 5, 8, 13, 21};
            
         l.addArrayLast(file3);
         
